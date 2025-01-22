@@ -1,0 +1,43 @@
+.main_container {
+  padding: 32px;
+  border-radius: 30px;
+  background: var(
+    --black-gradient,
+    radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+  );
+  max-width: 412px;
+  width: 100%;
+}
+.container_first_box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container_icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 40px;
+  background: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.button_container button {
+  width: 51px;
+  height: 51px;
+  background: #262E38;
+  border-radius: 50px;
+  border: none;
+  color: var(--Medium-Gray, #7C8798);
+}
+.main_container_of_btn{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
