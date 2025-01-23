@@ -1,10 +1,10 @@
 import React from "react";
 import './App.css'
 
-function Submit(){
+function Submit(props){
     return (
         <>
-        
+        <button className="submit_btn" onClick={props.fun}>SUBMIT</button>
         </>
     )
 }
